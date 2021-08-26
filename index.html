@@ -1,0 +1,130 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="eng">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>FLEXBOX</title>
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="./css/style.css" />
+	
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+</head>
+<!-- Отображаемое тело страницы -->
+<body>
+	<div class="burger">
+		<div class="burger__content">
+			<div class="container">
+				<div class="burger__lines__container">
+					<div class="burger__lines">
+						<div class="burger-line__one"></div>
+						<p class="burger-line__p-one"></p><p class="burger-line__p-two"></p>
+						<div class="burger-line__two"></div>
+					</div>
+				</div>
+				<div class="burger__menu">
+					<a href="#" class="burger__logo-link">
+						<img class="burger__logo" src="./img/menu/PerfectShop.svg" alt="burger logo">
+					</a>
+					<nav class="burger__content__nav">
+						<ul class="burger__content__list">
+							<li>
+								<a href="#" class="burger__content-link">Парфюмерия</a>
+							</li>
+							<li>
+								<a href="#" class="burger__content-link">Макияж</a>
+							</li>
+							<li>
+								<a href="#" class="burger__content-link">Уход за телом</a>
+							</li>
+							<li>
+								<a href="#" class="burger__content-link">Уход за волосами</a>
+							</li>
+							<li>
+								<a href="">...</a>
+								<ul class="burger__content__sub-list">
+									<li>
+										<a href="#" class="burger__content-link">111</a>
+									</li>
+									<li>
+										<a href="#" class="burger__content-link">222</a>
+									</li>
+									<li>
+										<a href="#" class="burger__content-link">333</a>
+									</li>
+									<li>
+										<a href="#" class="burger__content-link">444</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<div class="burger__nav__icons">
+						<a href="" class="burger__login-btn">
+							<img src="./img/menu icons/login-default.svg" alt="login-default">
+						</a>
+						<a href="" class="burger__heart-btn">
+							<img src="./img/menu icons/heart-default.svg" alt="heart-default">
+							<p class="burger__heart-btn__count">0</p>
+						</a>
+						<a href="" class="burger__cart-btn">
+							<img src="./img/menu icons/cart-default.svg" alt="cart-default">
+							<p class="burger__cart-btn__count">0</p>
+						</a>
+					</div>
+					<a href="tel:83333330050" class="burger__contact-phone">
+						+7 (499) 550-00-50
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="catalogue">
+		<div class="catalogue__content">
+			<div class="catalogue__flex">
+				<div class="container">
+					
+						<p class="catalogue__title" style="text-transform: uppercase;">
+							<a href="" class="catalogue__title-link">каталог</a>
+						</p>
+					
+					
+					<div class="catalogue__cube-dots">
+						<p class="dot__one"></p>
+						<p class="dot__two"></p>
+						<p class="dot__three"></p>
+						<p class="dot__four"></p>
+					</div>
+					<form action="">
+						<img class="catalogue__search-img" src="./img/menu icons/search-default.svg" alt="search-default">
+						<input class="catalogue__search" type="search" placeholder="Поиск по сайту">
+					</form>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<main class="main__page">
+		<div class="main__bg">
+			<div class="container">
+				<div class="main__content">
+					<p class="title__title" style="text-transform: uppercase;">
+						ИНТЕРНЕТ-магазин косметики
+					</p>
+					<h1>
+						Новая реальность — <br> бьюти-инжинириг XXI века
+					</h1>
+					<p class="main__text">Поднимите уход за кожей на новый уровень! 
+						Специально разработанные формулы и запатентованные технологии стирают следы активной мимики и борются с гравитацией.
+					</p>
+					<button class="main__details-btn">
+						<span>Подробнее</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
